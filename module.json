@@ -1,0 +1,34 @@
+{
+  "id": "musique-journal-page-type",
+  "title": "Musique Journal Page Type",
+  "version": "0.1.0",
+  "authors": [{"name": "eltharin"}],
+  "esmodules": ["src/main.mjs"],
+  "languages": [{
+    "lang": "en",
+    "name": "English",
+    "path": "lang/fr.json"
+  },{
+    "lang": "fr",
+    "name": "Français",
+    "path": "lang/fr.json"
+  }],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "description": "",
+  "documentTypes": {
+    "JournalEntryPage": {
+      "musique": {}
+    }
+  },
+  "bugs": "https://github.com/eltharin/foundryvtt_audio_in_journal/issues",
+  "readme": "https://github.com/eltharin/foundryvtt_audio_in_journal/blob/main/README.md",
+  "license": "https://mit-license.org/",
+  "manifest": "https://github.com/eltharin/foundryvtt_audio_in_journal/releases/latest/download/module.json",
+  "download": "https://github.com/eltharin/foundryvtt_audio_in_journal/archive/refs/tags/V0.1.0.zip"
+}

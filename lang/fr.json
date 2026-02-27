@@ -1,0 +1,11 @@
+{
+  "TYPES.JournalEntryPage.musique-journal-page-type.musique": "Quest",
+  "musique-journal-page-type": {
+    "AudioSource": "Source Audio",
+    "AudioControls" : "Afficher les contrôles audio",
+    "AudioAutoplay": "Lecture Automatique",
+    "AudioLoop": "Lecture en boucle",
+    "AudioLoopHint": "selon le navigateur, la lecture en boucle n'est pas disponible",
+    "AudioVolume": "Volume audio"
+  }
+}
