@@ -1,0 +1,17 @@
+<section>
+    {{#if src}}
+    <figure class="">
+        <audio src="{{ src }}" controls ></audio>
+    </figure>
+    {{/if}}
+
+    {{ formField fields.src value=source.src localize=true input=srcInput
+                 label="musique-journal-page-type.AudioSource" }}
+    {{ formField fields.video.fields.controls value=source.video.controls label="musique-journal-page-type.AudioControls"
+                 localize=true }}
+    {{ formField fields.video.fields.autoplay value=source.video.autoplay label="musique-journal-page-type.AudioAutoplay"
+                 localize=true }}
+    {{ formField fields.video.fields.loop value=source.video.loop label="musique-journal-page-type.AudioLoop" hint="musique-journal-page-type.AudioLoopHint" localize=true }}
+    {{ formField fields.video.fields.volume value=source.video.volume label="musique-journal-page-type.AudioVolume"
+                 localize=true }}
+</section>

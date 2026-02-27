@@ -1,0 +1,17 @@
+<div>
+    {{#if title.show}}
+    <header class="journal-page-header">
+        <h{{ title.level }}>{{ name }}</h{{ title.level }}>
+    </header>
+    {{/if}}
+
+    {{#if src}}
+    <figure class="">
+        <audio src="{{ src }}"
+               {{#if document.video.controls}}controls{{/if}}
+               {{#if document.video.autoplay}}autoplay{{/if}}
+               {{#if document.video.loop}}loop{{/if}}</audio>
+        
+    </figure>
+    {{/if}}
+</div>
